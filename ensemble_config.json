@@ -1,0 +1,17 @@
+{
+    "model1_name": "EfficientNet-B0",
+    "model2_name": "ResNet18",
+    "model1_weight": 0.5006530284881592,
+    "model2_weight": 0.4993470013141632,
+    "model1_val_macro_f1": 0.9298299256861501,
+    "model2_val_macro_f1": 0.927404322285294,
+    "label_mapping": {
+        "realperson": 0,
+        "fake_mask": 1,
+        "fake_mannequin": 2,
+        "fake_printed": 3,
+        "fake_screen": 4,
+        "fake_unknown": 5
+    },
+    "img_size": 224
+}
